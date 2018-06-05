@@ -21,10 +21,10 @@ class Calculadora:
 
     def show_resul(self):
         print("{}".format(self.resu))
-
-    def main():
-        oC = Calculadora()
-        oC.set_var()
-        oC.show_resul()
+def main():
+    oC = Calculadora()
+    oC.set_var()
+    oC.show_resul()
     
-main()
+if __name__ == '__main__':
+    main()
