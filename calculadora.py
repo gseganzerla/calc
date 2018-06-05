@@ -23,9 +23,9 @@ class Calculadora:
         print("{}".format(self.resu))
 
     def main():
-    oC = Calculadora()
-    oC.set_var()
-    oC.show_resul()
+        oC = Calculadora()
+        oC.set_var()
+        oC.show_resul()
     
 if __name__ == '__main__':
     main()
