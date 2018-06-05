@@ -27,5 +27,4 @@ class Calculadora:
         oC.set_var()
         oC.show_resul()
     
-if __name__ == '__main__':
-    main()
+main()
